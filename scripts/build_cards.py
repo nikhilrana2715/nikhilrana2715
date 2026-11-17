@@ -54,7 +54,7 @@ PROJECTS = [
          tags=["JavaScript", "3D", "Extension"], cta="Play now", url="https://running-game-91zr.vercel.app/"),
     dict(slug="mma", no="03", kind="WORK", title="Morning Meeting App",
          line="Upload the day's Excel production report, get a live dashboard. Used every morning at MRS Bearings.",
-         tags=["TypeScript", "React", "Excel"], cta="View code", url="https://github.com/nikhilrana2715/MMA"),
+         tags=["TypeScript", "React", "Excel"], cta="Internal tool", url="https://nikhil-rana-portfolio.vercel.app"),
     dict(slug="quick-lock", no="04", kind="DESKTOP", title="Quick Lock",
          line="App lock for Windows. Suspends a protected app until you type the master password.",
          tags=["Tauri 2", "Rust", "React"], cta="View code", url="https://github.com/nikhilrana2715/Locker"),
@@ -333,7 +333,7 @@ def card_about(theme: str) -> str:
             c.text(x, y, f"0{j + 1}", "mono", 12, t["accent"])
             c.text(x + 30, y, p, "onest-400", 15, t["muted"])
     c.raw(f'<line x1="40" y1="206" x2="{W - 220}" y2="206" stroke="{t["border"]}"/>')
-    c.text(40, 238, "First Python script at 16. Haven't stopped building since.", "onest-500", 15)
+    c.text(40, 238, "First Python script at 20. Haven't stopped building since.", "onest-500", 15)
     uri, sw, sh = sticker("drink", 190)
     float_anim(c, "fl", amp=5, dur=5)
     c.raw(f'<image class="fl" x="{W - sw - 36}" y="{270 - sh - 26}" width="{sw}" height="{sh}" href="{uri}"/>')
