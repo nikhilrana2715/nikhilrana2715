@@ -3,7 +3,7 @@
   "followers": 4,
   "stars": 12,
   "live": 12,
-  "contrib": 204,
+  "contrib": 206,
   "langs": [
     [
       "JavaScript",
@@ -11,7 +11,7 @@
     ],
     [
       "HTML",
-      9
+      10
     ],
     [
       "TypeScript",
@@ -22,7 +22,7 @@
       1
     ],
     [
-      "CSS",
+      "Python",
       1
     ]
   ]
